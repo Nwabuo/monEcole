@@ -210,7 +210,7 @@ main{
 
 .jamb-score{
     min-height: 20vw;
-  background:no-repeat center linear-gradient(var(--transdarkcolor), transparent), no-repeat center url('../images/social_media_graduation.jpg'); 
+  background:no-repeat center linear-gradient(var(--transdarkcolor), transparent), no-repeat center url('../Images/social_media_graduation.jpg'); 
 
     background-size: cover;
     filter: blur(.5px);
@@ -539,4 +539,5 @@ footer{
             font-size: 12x;
         }
     }
+
 }
