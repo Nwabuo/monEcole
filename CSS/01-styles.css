@@ -474,7 +474,7 @@ footer{
 
 .about_jamb{
     padding: 0;
-    background: no-repeat center url('../images/jamb.jpeg');
+    background: no-repeat center url('../Images/jamb.jpeg');
     background-size: contain;
     display: block;
     img{
@@ -541,3 +541,4 @@ footer{
     }
 
 }
+
