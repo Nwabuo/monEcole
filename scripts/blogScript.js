@@ -17,10 +17,15 @@ function sayHello (){
     console.log('hello');
 }
 
-function whatsAppy(){
+function whatsAppy(goingTo){
+    if(goingTo == "chat me"){
     let phoneNumber = "2347061473780";
     let url = "https://wa.me/" + phoneNumber;
-    window.open(url, "_blank");
+    window.open(url, "_blank");}
+    else{
+        let groupLink = "https://chat.whatsapp.com/AbCdEfGhIjKlMnOpQrStUv";
+    window.open(groupLink, "_blank");}
+    
 }
 
 const navButton = document.querySelector('.hamburger');
@@ -52,5 +57,6 @@ const dropMenu = function(){
         droppedDown = false;
     }
 }
+
 
 navButton.addEventListener('click', dropMenu);
