@@ -23,10 +23,12 @@ function whatsAppy(goingTo){
     let url = "https://wa.me/" + phoneNumber;
     window.open(url, "_blank");}
     else{
-        let groupLink = "https://chat.whatsapp.com/AbCdEfGhIjKlMnOpQrStUv";
-    window.open(groupLink, "_blank");}
-    
+        let groupLink = "https://chat.whatsapp.com/EyTvOlEXJUz7HN57vT3phX?mode=ac_t";
+    window.open(groupLink, "_blank");}  
 }
+
+//https://chat.whatsapp.com/EyTvOlEXJUz7HN57vT3phX?mode=ac_t
+
 
 const navButton = document.querySelector('.hamburger');
 
@@ -60,3 +62,4 @@ const dropMenu = function(){
 
 
 navButton.addEventListener('click', dropMenu);
+
