@@ -21,7 +21,7 @@ body{
     position: relative;
     font:  normal normal bold 12px 'Gill Sans MT';
     position: relative;
-     
+     background-color: var(--maincolor);
 }
 
 header{
@@ -541,4 +541,5 @@ footer{
     }
 
 }
+
 
